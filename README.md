@@ -44,3 +44,9 @@ sqlb.query.where.push({
 const result = sqlb.toSQL();
 console.log(result);
 ```
+
+## Notes
+It supports also the `OFFSET` condition (for example, used by Apche Drill):
+```javascript
+sqlb.query.offset = [30];
+```

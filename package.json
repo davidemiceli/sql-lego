@@ -1,6 +1,6 @@
 {
   "name": "sql-lego",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "SQL Lego is a lightweight library for building and composing SQL string statements without the standard order.",
   "license": "MIT",
   "main": "index.js",
