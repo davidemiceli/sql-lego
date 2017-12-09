@@ -1,16 +1,7 @@
-# sql-lego
-SQL Lego is a lightweight library for building and composing SQL string statements without the standard order.
+'use strict';
 
-## Installation
-To install sql-lego with npm package manager
-```
-npm install sql-lego
-```
-
-## Getting Started
-```javascript
 // Requirements
-const SQLego = require('sql-lego');
+const SQLego = require('./lib/main');
 
 // Init sqlego instance
 const sqlb = new SQLego();
@@ -35,12 +26,6 @@ sqlb.query.joins = [
 ];
 sqlb.query.groupby = ['u.id'];
 
-sqlb.query.where.push({
-  operator: 'OR',
-  condition: `p.tag = 'food'`
-});
-
 // Return the sql string in the right order
 const result = sqlb.toSQL();
 console.log(result);
-```

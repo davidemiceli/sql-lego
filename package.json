@@ -1,0 +1,34 @@
+{
+  "name": "sql-lego",
+  "version": "0.0.1",
+  "description": "SQL Lego is a lightweight library for building and composing SQL string statements without the standard order.",
+  "license": "MIT",
+  "main": "index.js",
+  "keywords": [
+    "SQL",
+    "sqlbuilder",
+    "RDBMS",
+    "databases"
+  ],
+  "author": "davidemiceli",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidemiceli/sql-lego.git"
+  },
+  "files": [
+    "index.js"
+  ],
+  "bugs": {
+    "url": "https://github.com/davidemiceli/sql-lego/issues"
+  },
+  "maintainers": [
+    "davidemiceli"
+  ],
+  "homepage": "https://github.com/davidemiceli/sql-lego#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "node /examples/test.js"
+  }
+}
